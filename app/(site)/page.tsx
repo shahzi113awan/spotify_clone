@@ -1,6 +1,9 @@
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <h1 className="text-green-500">Hello Shezify</h1>
+    <div className="h-full w-full bg-neutral-900 rounded-lg overflow-hidden overflow-y-auto">
+       <Header/>
+    </div>
   )
 }

@@ -6,6 +6,7 @@ import { BiSearch } from "react-icons/bi";
 import Box from "./Box";
 import SidebarItem from "./SidebarItem";
 import { twMerge } from "tailwind-merge";
+import Library from "./Library";
 type Props = {
   children: React.ReactNode;
 };
@@ -41,7 +42,8 @@ const Sidebar = (props: Props) => {
               })}
             </div>
           </Box>
-          <Box className="overflow-y-auto h-full">sidebar 1</Box>
+          
+          <Box className="overflow-y-auto mb-2 h-full mt-3"><Library/></Box>
         
         </div>
       <main className="h-full flex-1 overflow-y-auto p-2">{props.children}</main>

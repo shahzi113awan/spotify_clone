@@ -21,7 +21,6 @@ const SidebarItem = ({ Icon, href, label, active }: Props) => {
     >
       <Icon size={26}/>
       <p className="truncate w-full">{label} </p>
-      
     </Link>
   );
 };
